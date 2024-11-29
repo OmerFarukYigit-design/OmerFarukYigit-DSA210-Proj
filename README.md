@@ -1,23 +1,17 @@
 # OmerFarukYigit-DSA210-Proj
 
-SCREEN TIME ANALYSIS PROJECT PROPOSAL
+SPOTIFY MUSIC HABITS PROJECT PROPOSAL
 
-Problem Statement
+# Problem Statement 
+With the upsurge of music streaming services, individual music habits have nowadays turned into a gold mine for data that may shed light on a person's preferences and listening behaviors. Among them, Spotify stands tall to study such habits because the detailed data it offers in track, genre, and time format can be highly enriching. This project is based on the exploration of patterns in my Spotify listening history, focusing on which genres and tracks I listen to the most, how these preferences change over time, and how listening habits are influenced by different periods or activities.
 
-In the digital era, screen time has become an essential aspect of daily life. However, excessive screen usage may negatively impact productivity, mental health, and overall well-being. Understanding the patterns of screen time usage is crucial for identifying potential areas for improvement and fostering a healthier relationship with technology. By analyzing personal screen time data, we aim to uncover insights into digital habits and explore strategies to optimize them.
+# How Will We Address This Problem?
+To analyze my Spotify data, I will first extract my listening history using Spotify's data export feature. This data includes but is not limited to track titles, artist names, album names, genres, and timestamps indicating when songs were played. Once the data is retrieved, preprocessing will be done to structure it into an analyzable format. The project will focus on three main steps: exploratory data analysis, visualization, and optionally predictive modeling.
 
-How Are We Going To Tackle This Problem?
+Expressed in other terms, this should give insights about the overall patterns of listening, the preferences for any genres, or changes according to season and days. Visualization would therefore serve the purpose of effectively illustrating insights as graphs or charts for intuitive, quick insight into listening habits. Finally, a predictive model may allow forecasted favorite genres or tracks from historical information that has provided extra insight for predicting behaviors.
 
-We will analyze personal screen time data collected from the "Screen Time" feature on an Apple iPhone. The dataset will include daily total usage, app category-based breakdowns (e.g., social media, entertainment, productivity), and hourly usage distribution. By utilizing Python libraries, we will perform exploratory data analysis (EDA) to identify patterns and trends. Visualizations will be created to clearly communicate findings. Additionally, if time allows, a predictive model will be developed to forecast future screen time based on current habits.
+# Methods and Tools We Plan to Use
+We will be using Spotify's export data feature for collecting data in this project. The analysis and pre-processing will be done in Python using libraries like Pandas and NumPy. Visualization will be performed by the usage of Matplotlib and Seaborn to plot neat and interesting graphs. Also, the work carried out and the findings in the project will be recorded and shared using a GitHub repository.
 
-Methods and Tools We Are Planning to Use
-
-For this project, the following methods and tools will be employed:
-Exploration and Data Analysis: Pandas and NumPy for data processing and analysis.
-Visualization: Matplotlib and Plotly for generating insightful graphs and trends.
-Prediction (Optional): Scikit-learn to build regression models for predicting future screen time.
-Data Collection: Screen time data exported from the iPhone's "Screen Time" feature.
-
-Expected Outcome
-
-By the end of this project, we expect to uncover meaningful insights about personal screen time habits, such as peak usage hours, most used application categories, and potential areas for improvement. The analysis will also propose actionable strategies to reduce unnecessary screen time and enhance productivity. If a predictive model is implemented, it will offer an additional layer of insight by forecasting future screen usage trends.
+# Expected Outcome
+This project is envisaged to present an exhaustive analysis of my Spotify listening history for valuable insights on my favorite genres, artists, and tracks, coupled with temporal trends in listening. The results will indicate the emerging patterns in music consumption and preference. If predictive modeling is implemented, it will further enhance such analysis by making predictions about future listening behavior based on past trends.
