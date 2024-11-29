@@ -1,6 +1,6 @@
 # OmerFarukYigit-DSA210-Proj
 
-SPOTIFY MUSIC HABITS PROJECT PROPOSAL
+# SPOTIFY MUSIC HABITS PROJECT PROPOSAL
 
 # Problem Statement 
 With the upsurge of music streaming services, individual music habits have nowadays turned into a gold mine for data that may shed light on a person's preferences and listening behaviors. Among them, Spotify stands tall to study such habits because the detailed data it offers in track, genre, and time format can be highly enriching. This project is based on the exploration of patterns in my Spotify listening history, focusing on which genres and tracks I listen to the most, how these preferences change over time, and how listening habits are influenced by different periods or activities.
